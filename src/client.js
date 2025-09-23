@@ -1,7 +1,7 @@
 import { io } from "socket.io-client";
 import readline from "readline";
 
-const socket = io("https://cli-chat-2hcg.onrender.com/");
+const socket = io("http://localhost:3000/");
 
 const rl = readline.createInterface({
     input: process.stdin,
